@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/billcobbler/casbin-redis-watcher/v2 v2.0.0-20211014141847-d29c8619193d
-	github.com/casbin/casbin/v2 v2.135.0
+	github.com/casbin/casbin/v2 v2.123.0
 	github.com/casbin/gorm-adapter/v3 v3.41.0
 	github.com/casbin/redis-watcher/v2 v2.8.0
 	github.com/redis/go-redis/v9 v9.18.0
