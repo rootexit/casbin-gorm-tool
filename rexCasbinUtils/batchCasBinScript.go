@@ -1,4 +1,4 @@
-package rexUtils
+package rexCasbinUtils
 
 import (
 	"errors"
