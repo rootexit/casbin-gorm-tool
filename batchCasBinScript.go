@@ -22,7 +22,8 @@ func BatchAddCasBinPolices(e *casbin.Enforcer, pType string, rules [][]string) e
 
 	if pType == "p" {
 		for _, policy := range mapPolices {
-			b, _ := e.HasPolicy(policy)
+			//b, _ := e.HasPolicy(policy)
+			b := e.HasPolicy(policy)
 			if !b {
 				uniquePolices = append(uniquePolices, policy)
 			}
@@ -38,7 +39,7 @@ func BatchAddCasBinPolices(e *casbin.Enforcer, pType string, rules [][]string) e
 	} else if pType == "g" {
 		for _, policy := range mapPolices {
 			// note: 判断策略是否存在
-			b, _ := e.HasGroupingPolicy(policy)
+			b := e.HasGroupingPolicy(policy)
 			if !b {
 				uniquePolices = append(uniquePolices, policy)
 			}
@@ -68,7 +69,7 @@ func BatchRemoveCasBinPolices(e *casbin.Enforcer, pType string, rules [][]string
 
 	if pType == "p" {
 		for _, policy := range mapPolices {
-			b, _ := e.HasPolicy(policy)
+			b := e.HasPolicy(policy)
 			if b {
 				uniquePolices = append(uniquePolices, policy)
 			}
@@ -82,7 +83,7 @@ func BatchRemoveCasBinPolices(e *casbin.Enforcer, pType string, rules [][]string
 	} else if pType == "g" {
 		for _, policy := range mapPolices {
 			// note: 判断策略是否存在
-			b, _ := e.HasGroupingPolicy(policy)
+			b := e.HasGroupingPolicy(policy)
 			if b {
 				uniquePolices = append(uniquePolices, policy)
 			}
