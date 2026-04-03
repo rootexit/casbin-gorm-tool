@@ -6,8 +6,8 @@ import (
 	"log"
 
 	rediswatcher "github.com/billcobbler/casbin-redis-watcher/v2"
-	"github.com/casbin/casbin/v2"
-	"github.com/casbin/casbin/v2/persist"
+	"github.com/casbin/casbin/v3"
+	"github.com/casbin/casbin/v3/persist"
 	gormadapter "github.com/casbin/gorm-adapter/v3"
 	"github.com/rootexit/rexLib/rexStore"
 	"gorm.io/gorm"

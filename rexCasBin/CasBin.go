@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/casbin/casbin/v2"
+	"github.com/casbin/casbin/v3"
 	gormadapter "github.com/casbin/gorm-adapter/v3"
 	rediswatcher "github.com/casbin/redis-watcher/v2"
 	"github.com/redis/go-redis/v9"

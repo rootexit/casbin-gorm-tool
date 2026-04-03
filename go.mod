@@ -4,7 +4,6 @@ go 1.24.0
 
 require (
 	github.com/billcobbler/casbin-redis-watcher/v2 v2.0.0-20211014141847-d29c8619193d
-	github.com/casbin/casbin/v2 v2.70.0
 	github.com/casbin/gorm-adapter/v3 v3.41.0
 	github.com/casbin/redis-watcher/v2 v2.8.0
 	github.com/redis/go-redis/v9 v9.18.0
@@ -17,7 +16,7 @@ require (
 	filippo.io/edwards25519 v1.1.1 // indirect
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/bmatcuk/doublestar/v4 v4.9.1 // indirect
-	github.com/casbin/casbin/v3 v3.9.0 // indirect
+	github.com/casbin/casbin/v3 v3.10.0 // indirect
 	github.com/casbin/govaluate v1.10.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
